@@ -21,6 +21,48 @@ body {
   line-height: 1.6;
   color: #333333;
   background-color: #b5f9ff;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body.gelap {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+body.gelap h1,
+body.gelap h2,
+body.gelap h3,
+body.gelap .kartu,
+body.gelap .menu,
+body.gelap p,
+body.gelap li,
+body.gelap td,
+body.gelap th,
+body.gelap caption,
+body.gelap label {
+  color: #e5e7eb;
+}
+
+body.gelap .kartu,
+body.gelap .menu,
+body.gelap article,
+body.gelap .kartukecil {
+  background-color: #1f2937;
+  border-color: #374151;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+body.gelap th {
+  background-color: #0f172a;
+}
+
+body.gelap td {
+  border-color: #374151;
+}
+
+body.gelap header,
+body.gelap footer {
+  background-color: #0f172a;
 }
 
 h1, h2, h3 {
@@ -211,6 +253,11 @@ button {
   cursor: pointer;
 }
 
+body.gelap button,
+body.gelap .tombol {
+  background-color: #f59e0b;
+}
+
 /* 7. Footer */
 footer {
   background-color: #1D3557;
@@ -261,4 +308,65 @@ footer a {
   .hero h2 {
     font-size: 2.75rem;
   }
+}
+
+/* 10. Tombol tema, filter, dan label kategori */
+.tombol-tema {
+padding: 0.5rem 0.9rem;
+border: 2px solid #FFFFFF;
+background-color: transparent;
+font-size: 0.9rem;
+}
+
+/* 11. Tema gelap (percobaan pertama) */
+body.gelap {
+background-color: #121A24;
+color: #E3E8EE;
+}
+
+:root {
+--warna-utama: #1D3557;
+--warna-judul: #1D3557;
+--warna-aksen: #E63946;
+--warna-tautan: #E63946;
+--warna-latar: #F1FAEE;
+--warna-teks: #333333;
+--warna-kartu: #FFFFFF;
+--warna-garis: #DDDDDD;
+}
+
+
+/* 11. Tema gelap: isi variabel diganti saat body memiliki class
+gelap */
+body.gelap {
+--warna-utama: #0B1526;
+--warna-judul: #A8DADC;
+--warna-tautan: #FF8A8A;
+--warna-latar: #121A24;
+--warna-teks: #E3E8EE;
+--warna-kartu: #1C2836;
+--warna-garis: #34465A;
+}
+
+.filter {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+margin-bottom: 1rem;
+}
+.tombol-filter {
+padding: 0.5rem 1rem;
+border: 2px solid var(--warna-garis);
+background-color: var(--warna-kartu);
+color: var(--warna-judul);
+}
+.label {
+display: inline-block;
+padding: 0.1rem 0.6rem;
+margin-bottom: 0.5rem;
+border-radius: 999px;
+background-color: var(--warna-latar);
+color: var(--warna-judul);
+font-size: 0.85rem;
+font-weight: 600;
 }
