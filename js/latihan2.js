@@ -59,7 +59,7 @@ const proyek = [
   {
     judul: "Halaman Profil Pertama",
     kategori: "HTML",
-    gambar: "img/proyek-profil.png",
+    gambar: "img/tampilan-portofolio.png",
     alt: "Tangkapan layar halaman profil Ahamd izzudin syakbana",
     deskripsi: "Halaman web pertama saya, dibuat dengan HTML dasar.",
   },
@@ -80,21 +80,21 @@ const proyek = [
   {
     judul: "Portofolio Responsif",
     kategori: "CSS",
-    gambar: "img/proyek-responsif.png",
+    gambar: "img/css.png",
     alt: "Tangkapan layar portofolio di ponsel dan laptop",
     deskripsi: "Rapi di ponsel, tablet, dan laptop dengan Flexbox.",
   },
   {
     judul: "Kalkulator Nilai Rapor",
     kategori: "JavaScript",
-    gambar: "img/proyek-kalkulator.png",
+    gambar: "img/kalkulator-nilai-rapot.png",
     alt: "Tangkapan layar hasil kalkulator nilai di Console",
     deskripsi: "Rata-rata dan predikat nilai dengan fungsi JavaScript.",
   },
   {
     judul: "Lima Soal Logika",
     kategori: "JavaScript",
-    gambar: "img/proyek-logika.png",
+    gambar: "img/lima soal logika.png",
     alt: "Tangkapan layar hasil uji lima soal logika",
     deskripsi: "Lima fungsi logika yang masing-masing diuji 3 masukan.",
   },
