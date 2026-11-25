@@ -59,7 +59,7 @@ let proyek = [
   {
     judul: "Halaman Profil Pertama",
     kategori: "HTML",
-    gambar: "img/tampilan-portofolio.png",
+    gambar: "img/tampilan.portofolio.png",
     alt: "Tangkapan layar halaman profil Ahamd izzudin syakbana",
     deskripsi: "Halaman web pertama saya, dibuat dengan HTML dasar.",
   },
@@ -79,7 +79,7 @@ let proyek = [
   },
   {
     judul: "Portofolio Responsif",
-    kategori: "CSS",
+    kategori: "css.",
     gambar: "img/css.png",
     alt: "Tangkapan layar portofolio di ponsel dan laptop",
     deskripsi: "Rapi di ponsel, tablet, dan laptop dengan Flexbox.",

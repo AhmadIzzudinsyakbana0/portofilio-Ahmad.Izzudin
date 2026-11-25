@@ -29,4 +29,4 @@ SEO 100
 100
 ## Tautan
 - Website: https://vercel.com/ahmad-izzudin-syakbana
-- Dibuat oleh: Ahmad Izzudin Syakbana, SMKN1 PASURUAN
+- Dibuat oleh: Ahmad Izzudin Syakbana, SMKN1 PASURUAN.
