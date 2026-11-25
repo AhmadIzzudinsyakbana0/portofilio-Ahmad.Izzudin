@@ -1,10 +1,10 @@
 # Portofolio Ahmad Izzudin Syakbana
-Website portofolio pribadi yang saya buat di Kelas Industri UBIG
+Website portofolio pribadi yang saya buat di Kelas Industri UBIG.
 (Paket 1, Minggu 01 sampai 09).
 Versi ini adalah **Portofolio v2**: tampil rapi di ponsel, tablet,
 dan laptop, serta interaktif dengan JavaScript.
 ## Tampilan
-![Tampilan beranda Portofolio v2](img/tampilan-portofolio.png)
+![Tampilan beranda Portofolio v2](img/tampilan.portofolio.png)
 ## Fitur
 - Halaman **Beranda** berisi profil, hobi, cita-cita, jadwal
 belajar, dan daftar keahlian dari `data/keahlian.json` yang bisa
@@ -28,5 +28,6 @@ SEO 100
 - Kontak: Performance 99, Accessibility 100, Best Practices 100, SEO
 100
 ## Tautan
-- Website: https://vercel.com/ahmad-izzudin-syakbana
+- Website: https://vercel.com/ahmad-izzudin-syakbana.
 - Dibuat oleh: Ahmad Izzudin Syakbana, SMKN1 PASURUAN.
+
