@@ -55,7 +55,7 @@ if (kotakPesan && hitungKarakter) {
 }
 
 // 4. Daftar proyek dan filter (halaman Proyek)
-const proyek = [
+let proyek = [
   {
     judul: "Halaman Profil Pertama",
     kategori: "HTML",
@@ -99,6 +99,31 @@ const proyek = [
     deskripsi: "Lima fungsi logika yang masing-masing diuji 3 masukan.",
   },
 ];
+
+async function muatProyek() {
+    if (jumlahProyek) {
+        jumlahProyek.textContent = "Memuat proyek...";
+    }
+
+    try {
+        const response = await fetch("data/proyek.json");
+
+        if (!response.ok) {
+            throw new Error("Data proyek gagal dimuat");
+        }
+
+        proyek = await response.json();
+
+        tampilkanProyek(proyek);
+
+    } catch (error) {
+        console.error("Error:", error);
+
+        if (jumlahProyek) {
+            jumlahProyek.textContent = "Data proyek gagal dimuat.";
+        }
+    }
+}
 
 const daftarProyek = document.querySelector("#daftar-proyek");
 const jumlahProyek = document.querySelector("#jumlah-proyek");
@@ -144,7 +169,7 @@ function pasangFilter(idTombol, kategori) {
 }
 
 if (daftarProyek && jumlahProyek) {
-  tampilkanProyek(proyek);
+  muatProyek(proyek);
   pasangFilter("#filter-semua", "Semua");
   pasangFilter("#filter-html", "HTML");
   pasangFilter("#filter-css", "CSS");
